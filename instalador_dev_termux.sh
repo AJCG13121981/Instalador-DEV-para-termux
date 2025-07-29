@@ -52,3 +52,4 @@ neofetch --version
 nmap --version
 
 echo "=== INSTALACIÓN COMPLETADA ==="
+echo "✅ Script cargado correctamente"

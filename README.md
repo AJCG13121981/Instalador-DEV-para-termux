@@ -1,0 +1,1 @@
+# Instalador-DEV-para-termux

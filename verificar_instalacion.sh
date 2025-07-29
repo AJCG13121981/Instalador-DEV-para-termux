@@ -1,0 +1,28 @@
+#!/bin/bash
+
+echo "======================================="
+echo "===== VERIFICACIÓN DE INSTALACIÓN ====="
+
+command -v git &>/dev/null && echo "✅ Git" || echo "❌ Git"
+command -v java &>/dev/null && echo "✅ Java (openjdk)" || echo "❌ Java (openjdk)"
+command -v python &>/dev/null && echo "✅ Python" || echo "❌ Python"
+command -v pip &>/dev/null && echo "✅ pip" || echo "❌ pip"
+command -v curl &>/dev/null && echo "✅ curl" || echo "❌ curl"
+command -v wget &>/dev/null && echo "✅ wget" || echo "❌ wget"
+command -v clang &>/dev/null && echo "✅ Clang (C Compiler)" || echo "❌ Clang (C Compiler)"
+command -v node &>/dev/null && echo "✅ Node.js" || echo "❌ Node.js"
+command -v npm &>/dev/null && echo "✅ npm" || echo "❌ npm"
+command -v unzip &>/dev/null && echo "✅ unzip" || echo "❌ unzip"
+command -v tar &>/dev/null && echo "✅ tar" || echo "❌ tar"
+command -v ifconfig &>/dev/null && echo "✅ ifconfig (net-tools)" || echo "❌ ifconfig (net-tools)"
+command -v lsof &>/dev/null && echo "✅ lsof" || echo "❌ lsof"
+command -v htop &>/dev/null && echo "✅ htop" || echo "❌ htop"
+command -v tmux &>/dev/null && echo "✅ tmux" || echo "❌ tmux"
+command -v zsh &>/dev/null && echo "✅ Zsh" || echo "❌ Zsh"
+command -v jq &>/dev/null && echo "✅ jq" || echo "❌ jq"
+command -v gpg &>/dev/null && echo "✅ GnuPG" || echo "❌ GnuPG"
+command -v bat &>/dev/null && echo "✅ bat (bat)" || echo "❌ bat (bat)"
+command -v neofetch &>/dev/null && echo "✅ neofetch" || echo "❌ neofetch"
+command -v nmap &>/dev/null && echo "✅ nmap" || echo "❌ nmap"
+
+echo "======================================="

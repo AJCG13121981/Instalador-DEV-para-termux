@@ -9,7 +9,7 @@ pkg update && pkg upgrade -y
 pkg install git curl -y
 
 ## Clonar el repositorio
-git clone git@github.com:TU_USUARIO/Instalador-DEV-para-termux.git
+git clone git@github.com:AJCG13121981/Instalador-DEV-para-termux.git
 cd Instalador-DEV-para-termux/instalador_dev_termux
 
 ## Dar permisos y ejecutar el instalador
